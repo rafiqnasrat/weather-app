@@ -1,4 +1,4 @@
-![this is my weater app screnshot]()
+![this is my weater app screnshot](https://github.com/rafiqnasrat/weather-app/blob/main/Screenshot%20(7).png)
 # weather-app
 i bring bootstrap link with jquery
 i use bootstrap with font-awesome 
