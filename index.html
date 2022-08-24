@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP CDN LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- FONTAWESOME CDN LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JQUERY CDN LINK -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <title>Weather App</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col heading">Weather Dashboard</div>
+        </div>
+
+
+        <div class="row search-section">
+
+            <!-- SEARCH SECTION -->
+            <div class="col-md-4">
+                <div class="weather-search-body">
+                    <h3>Search for a city:</h3>
+                    <input type="text" id="svalue" placeholder="Search city">
+                    <button id="sbtn">Search</button><hr>
+
+                    <div class="search-result">
+                        <p>austin</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- DASHBOARD -->
+            <div class="col-md-8">
+                <div class="main-dashboard">
+
+                    <!-- HEADER -->
+                    <div class="dash-header">
+                        <!-- <h2>Atlanta (3/30/2022)<i class="fa-solid fa-cloud ms-3"></i></h2>
+                        <p>Temp: <span></span></p>
+                        <p>Wind: <span> MPH</span></p>
+                        <p>Humidity: <span>%</span></p>
+                        <p>UV Index: <span>0.47</span></p> -->
+                    </div>
+
+                    <!-- BODY -->
+                    <div class="dash-body">
+                        <h2>5-Day Forecast:</h2>
+
+                        <div class="cus-cards">
+                            <!-- <div class="cus-card-body">
+                                <h3>3/30/2022</h3>
+                                <span><i class="fa-solid fa-cloud"></i></span>
+                                <p>Temp: <span>74.01 F</span></p>
+                                <p>Wind: <span>6.67 MPH</span></p>
+                                <p>Humidity: <span>46%</span></p>
+                            </div> -->
+
+
+                            
+
+                           
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

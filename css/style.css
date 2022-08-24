@@ -1,0 +1,119 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+/* COLORS VARIABLES */
+:root
+{
+    --main: #182C61;
+    --main-100: #3B3B98;
+    --white: #ffffff;
+    --gray-100: #dfe4ea;
+    --gray-200: #ced6e0;
+}
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.container .heading
+{
+    padding: 20px 10px;
+    background-color: var(--main);
+    text-align: center;
+    font-weight: 500;
+    color: var(--white);
+    font-size: 1.3em;
+}
+
+
+/* SEARCH SECTION */
+.weather-search-body
+{
+    padding: 10px;
+}
+.weather-search-body input,
+.weather-search-body button
+{
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+}
+.weather-search-body input
+{
+    border: 1.5px solid var(--gray-200);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.weather-search-body button
+{
+    background-color: var(--main);
+    border-radius: 10px;
+    color: var(--white);
+    font-weight: 500;
+}
+.weather-search-body button:hover
+{
+    background-color: var(--main-100);
+}
+
+/* SEARCH RESUTL */
+.search-result p
+{
+    margin: 0;
+    padding: 5px 10px;
+    font-weight: 500;
+    background-color: var(--gray-100);
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+
+/* DASHBOARD, HEADER */
+.dash-header
+{
+    background-color: var(--gray-100);
+    margin: 20px 0;
+    padding: 20px;
+}
+.dash-header p
+{
+    margin-bottom: 10px;
+}
+.dash-header p span
+{
+    font-weight: 500;
+    color: var(--main);
+}
+.dash-header p:last-child span
+{
+    background-color: var(--bs-info);
+    padding: 0 5px;
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* FORCAST SECTION */
+.cus-cards
+{
+    display: flex;
+    gap: 15px 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cus-card-body
+{
+    background-color: var(--main-100);
+    padding: 15px;
+    color: var(--white);
+    border-radius: 10px;
+}
+
